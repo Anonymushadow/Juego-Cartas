@@ -1,0 +1,57 @@
+DC:
+	Joker
+	Zoom
+	Reverse Flash
+	Red Death
+	
+	Batman
+	Blue Beetle
+	The Flash
+	Green Lantern
+
+Marvel:
+	Thanos
+	Venom
+	Locki
+	Doom
+	
+	Deadpool
+	Ghost Rider
+	The Punisher
+	Rocket Racoon
+	
+TMNT:
+	Shredder
+	Tiguer Claw
+	Bebop
+	Rocksteady
+	Slash
+
+	Leonardo
+	Raphael
+	Donatello
+	Miguelangel
+	Slash
+
+Others:
+	The Violator
+	Homelander
+	Terminator
+	Spawn
+	V For Vendetta	
+	Butcher	
+	
+
+Power Rangers:
+	Lord Drakkon
+	Trent Fernandez	Clon
+	Dai shi
+	Psycho green
+	Ranger Slayer
+
+	RJ James
+	Trent Fernandez	
+	Shadow Ranger
+	Omega Red
+	Yellow Ninja Storm	
+

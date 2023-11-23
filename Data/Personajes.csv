@@ -1,0 +1,27 @@
+id, nombre, vida, tipo, descripcion, imagenes, habilidades, unica, cartas
+1, Lord Drakkon, 1000, ataque,  
+"Lord Drakkon, un villano formidable de los Power Rangers, emerge como una versión siniestra del icónico Ranger Verde, Tommy Oliver. Con una armadura oscura y una sed insaciable de poder",
+["", "", ""], ["", ""], Roba el ataque unico del contrincante duplicando su efecto, ["", "", ""]
+
+
+nombre, escudo, ataque, imagen, efecto, tipo, idPersonaje
+"Maximo poder", 10, 85, "", "cada ataque que realiza le suma +2 de ataque pero le reduce -2 de defenza", ataque, 1
+
+
+
+
+
+
+
+tipos (personaje):
+    ataque
+    defenza
+    equilibrado
+
+
+
+tipos (carta):
+    ataque: predomina el ataque
+    defenza: predomina la defenza 
+    equilibrado: no sobresale ni el ataque ni la defenza
+    efecto: solo ejecuta un efecto pero no tiene defenza y luego de ser utilizada se descarta

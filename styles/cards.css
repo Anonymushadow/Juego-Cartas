@@ -1,0 +1,112 @@
+.cards__selection__container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--Color__secundario);
+    display: flex;
+    background-image: url("../images/Otros/Shredder_vs_Drakkon.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: var(--Color__secundario);
+    background-image: url("../images/Power\ Rangers/Drakkon v1.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--Color__primario);
+    color: var(--Color__primario);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: grab;
+    transition: all .5s;
+}
+
+.card:active {
+    cursor: grabbing;
+}
+
+.card:hover {
+    outline: 3px solid var(--Color__primario);
+    transform: translate(0px, -10px);
+}
+
+.card__title__container {
+    background-color: var(--Color__secundario__transparente);
+    padding: 2px 5px;
+    border: 1px solid var(--Color__primario);
+    border-top: none;
+    font-size: 12px;
+}
+
+.card__title {
+    font-weight: 100;
+}
+
+.card__info {
+    margin: 0 10px;
+    width: 100%;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Color__secundario__transparente);
+}
+
+.card__info__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card__info__read__more {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.read__more__button {
+    border: none;
+    background-color: var(--Color__primario);
+    color: var(--Color__secundario);
+    padding: 1px 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.read__more__button:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+
+.life__icon,
+.damage__icon {
+    margin-right: 5px;
+}
+
+.life {
+    color: var(--Color__life);
+}
+
+.damage {
+    color: var(--Color__damage);
+}
+
+.life__value,
+.damage__value {
+    display: inline;
+}
